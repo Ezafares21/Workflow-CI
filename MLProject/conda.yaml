@@ -1,0 +1,13 @@
+name: Basic CI Pipeline
+channels:
+  - defaults
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+    - mlflow==2.19.0
+    - pandas
+    - scikit-learn
+    - dagshub
+    - matplotlib
+    - seaborn
