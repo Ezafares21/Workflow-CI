@@ -14,7 +14,7 @@ with mlflow.start_run(run_name="CI_Automated_Run"):
     
     # 2. Memuat dataset yang telah diproses
     print("Memuat dataset...")
-    df = pd.read_csv('Credit_Scoring_Bank_preprocessing/Credit_Scoring_Bank_clean.csv')
+    df = pd.read_csv('Credit_Scoring_Bank_clean.csv')
 
     # 3. Pemisahan fitur (X) dan target (y)
     target_column = 'y'
