@@ -13,7 +13,7 @@ with mlflow.start_run(run_name="CI_Automated_Run"):
     
     print("Memuat dataset...")
     # Memastikan path sesuai dengan struktur folder pada repository GitHub
-    dataset_path = 'MLProject/Credit_Scoring_Bank_clean.csv'
+    dataset_path = 'Credit_Scoring_Bank_clean.csv'
     df = pd.read_csv(dataset_path)
 
     # Pemisahan fitur (X) dan target (y)
